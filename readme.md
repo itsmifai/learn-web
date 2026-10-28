@@ -6,5 +6,6 @@ this repo contains about all my folder and file with study purpose, and always w
 **for clone this repo to ur local:**
 ```bash
 git clone https://github.com/itsmifai/learn-web.git
+```
 
-*made by love*
+*Made with love*
