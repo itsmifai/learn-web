@@ -1,1 +1,1 @@
-message : this merge from practice/message & main
+message: hello from practice/message branch, this message will be merge to main
