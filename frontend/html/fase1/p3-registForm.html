@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regist Form</title>
+</head>
+<body>
+    <!-- minimal 6 jenis input + label + validasi bawaan -->
+
+    <header>
+        <h1>nausicaa merchandise registration form</h1>
+
+        <nav>
+            <a href="p1-profile.html">profile nausicaa</a>
+            <a href="p2-article.html">article</a>
+        </nav>
+    </header>
+    <main>
+        <form>
+
+            <label for="name">Full Name</label><br>
+            <input type="text" name="name" id="name" placeholder="Mifthahul Amri" required>
+            <br><br>
+
+            <p>Gender</p>
+            <input type="radio" name="gender" id="male">
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">female</label>
+            <br><br>
+            
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="mifthahulamri@gmail.com" required>
+            <br><br>
+    
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" name="phone" id="phone" placeholder="628220202020" required>
+            <br><br>
+    
+            <label for="age">Age</label><br>
+            <input type="number" name="age" id="age" placeholder="19" required>
+            <br><br>
+    
+            <label for="birthday">Birthday</label><br>
+            <input type="date" name="birthday" id="birthday" required>
+            <br><br>
+    
+            <label for="desc">Describe ur experience</label><br>
+            <textarea name="desc" id="desc" cols="50" rows="20" placeholder="im a big fan for this anime series"></textarea>
+            <br><br>
+
+            <button>kirim</button>
+            <br><br>
+        </form>
+    </main>
+
+    <footer>made with love</footer>
+</body>
+</html>
