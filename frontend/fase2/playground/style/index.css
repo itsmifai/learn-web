@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Jim+Nightshade&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Jim Nightshade, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: brown;
+}
+
+#tittle, a, h2, p, strong {
+    color: white
+}
+
+.news-card {
+    padding: 20px;
+    background-color: rgb(105, 8, 48);
+}
+
+.tombol {
+    background-color: beige;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.tombol:hover {
+    background-color: rgb(160, 160, 117);
+    color: rgb(19, 15, 15);
+}
